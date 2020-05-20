@@ -17,9 +17,6 @@ let mySprite = sprites.create(img`
     . . . . . . . 4 . 4 4 4 . . . .
     . . . . . . . 4 4 . . . . . . .
 `, SpriteKind.Player)
-//const flipped = mySprite.image.clone();
-//flipped.flipX()
-//mySprite.setImage(flipped)
 mySprite.x = 20
 mySprite.ay = 300 // vertical acceleration
 
